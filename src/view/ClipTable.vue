@@ -120,22 +120,6 @@
                         this.$message.success('删除成功')
                     }
                 })
-                // let params = {
-                //     id: row.id
-                // };
-                // this.$confirm("确认删除该主机？", "提示", {
-                //     type: "warning"
-                // }).then(() => {
-                //
-                //     deleteDVR(params).then(res => {
-                //         this.getDVR();
-                //         this.$message({
-                //             type: "success",
-                //             message: "删除成功"
-                //         });
-                //     });
-                //
-                // });
             },
         },
         filters: {
